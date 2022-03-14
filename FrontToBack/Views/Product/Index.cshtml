@@ -1,0 +1,370 @@
+﻿@{
+    ViewBag.Title = "Products - Bacola";
+    @section js {
+        <script src="~/assets/js/pages/product.js"></script>
+    }
+}
+<main>
+    <section id="site-links">
+        <div class="container">
+            <div class="links pt-3 pb-5">
+                <a class="link-home" href="~/home.html">Home</a>
+                <i class="fa-solid fa-chevron-right link-icon"></i>
+                <a href="#" class="link-home">Meats & Seafood</a>
+                <i class="fa-solid fa-chevron-right link-icon"></i>
+                <a href="#" class="link-shop">ALL NATURAL ITALIAN-STYLE CHICKEN MEATBALLS</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-detail">
+        <div class="container">
+            <div class="product-detail-card">
+                <h1>All Natural Italian-Style Chicken Meatballs</h1>
+                <div class="product-info">
+                    <span>Brands:</span>
+                    <span class="last">Welch's</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="last">1 Review</span>
+                    <span>SKU:</span>
+                    <span>ZU49VOR</span>
+                    <div class="row mt-5">
+                        <div class="col-xl-6 col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><img src="~/assets/img/product-image-62-600x540.jpg" class="d-block w-100" alt="..."></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"><img src="~/assets/img/product-image2-47-600x540.jpg" class="d-block w-100" alt="..."></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"><img src="~/assets/img/product-image3-35-600x540.jpg" class="d-block w-100" alt="..."></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="~/assets/img/product-image-62-600x540.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/assets/img/product-image2-47-600x540.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="~/assets/img/product-image3-35-600x540.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-12">
+                            <span class="cross-out">$6.77</span>
+                            <span class="sale">$4.85</span>
+                            <p class="card-text">IN STOCK</p>
+                            <p class="pt-3">
+                                Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus
+                                malesuada tincidunt. Class aptent taciti sociosqu ad litora torquent
+                            </p>
+                            <div class="input-box pt-4">
+                                <span class="minus">-</span>
+                                <input type="text" disabled value="1">
+                                <span class="plus">+</span>
+                                <button class="btn btn-primary">Add to cart</button>
+                            </div>
+                            <div class="product-action mt-5">
+                                <button type="submit" class="btn primary-button">
+                                    <i class="fas fa-heart"></i>Add to
+                                    Wishlist
+                                </button>
+                                <a href="#">↓↑ COMPARE</a>
+                            </div>
+                            <div class="check mt-3 pb-3">
+                                <span> <span class="tick">✓</span>Type: Organic</span><br>
+                                <span> <span class="tick">✓</span>MFG: Jun 4.2021</span><br>
+                                <span> <span class="tick">✓</span>LIFE: 30 days</span>
+                            </div>
+                            <div class="product-type mt-3">
+                                <ul>
+                                    <li>Category: <a href="#">Meats & Seafood</a></li>
+                                    <li>Tags: <a href="#">chicken,natural,organic</a></li>
+                                </ul>
+                            </div>
+                            <div class="social mt-5">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-pinterest-p"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-reddit"></i>
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-12">
+                            <div class="covid-info">
+                                <p>Covid-19 Info: We keep delivering.</p>
+                            </div>
+                            <div class="icon-messages mt-5">
+                                <div class="text-box mb-5">
+                                    🚚 <span>Free Shipping apply to all orders over $100</span>
+                                </div>
+                                <div class="text-box mb-5">
+                                    🍞 <span>Guranteed 100% Organic from natural farmas</span>
+                                </div>
+                                <div class="text-box mb-5">
+                                    💲<span>1 Day Returns if you change your mind</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tabs">
+        <div class="container">
+            <ul class="nav pt-5 nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">
+                        Description
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">
+                        Additional information
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                     aria-labelledby="pills-home-tab">
+                    <p class="mb-3">
+                        Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna
+                        in dui
+                        finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat
+                        ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                        nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia.
+                        Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel,
+                        dignissim a tortor.
+                    </p>
+                    <p style="margin: 0; padding-bottom: 50px;">
+                        Morbi ut sapien vitae odio accumsan gravida. Morbi vitae erat auctor, eleifend nunc a,
+                        lobortis neque. Praesent aliquam dignissim viverra. Maecenas lacus odio, feugiat eu nunc sit
+                        amet, maximus sagittis dolor. Vivamus nisi sapien, elementum sit amet eros sit amet,
+                        ultricies cursus ipsum. Sed consequat luctus ligula. Curabitur laoreet rhoncus blandit.
+                        Aenean vel diam ut arcu pharetra dignissim ut sed leo. Vivamus faucibus, ipsum in vestibulum
+                        vulputate, lorem orci convallis quam, sit amet consequat nulla felis pharetra lacus. Duis
+                        semper erat mauris, sed egestas purus commodo vel.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row pb-5">
+                        <div class="col-xl-6 col-md-12">
+                            <input type="text" disabled value="Brands">
+                        </div>
+                        <div class="col-xl-6 col-md-12">
+                            <input type="text" disabled value="Welch's">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="related-product">
+        <div class="container">
+            <div class="row">
+                <h1 style="padding-bottom: 20px;">Related Products</h1>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">16%</span>
+                        <img src="~/assets/img/product-image-19-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Encore Seafoods Stuffed Alaskan SalmonF</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>1</span>
+                            <span class="cross-out">$32.49</span>
+                            <span class="sale">$27.49</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary mt-4" data-id="7">
+                                    Add to
+                                    cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem; " data-id="6">
+                        <span class="onsale">29%</span>
+                        <span class="recommended">Recommended</span>
+                        <img src="~/assets/img/product-image-10-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span>1</span>
+                            <span class="cross-out">$6.77</span>
+                            <span class="sale">$4.85</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">16%</span>
+                        <img src="~/assets/img/product-image-45-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Encore Seafoods Stuffed Alaskan SalmonF</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>1</span>
+                            <span class="cross-out">$32.49</span>
+                            <span class="sale">$27.49</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary mt-4" data-id="7">
+                                    Add to
+                                    cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">29%</span>
+                        <span class="recommended">Recommended</span>
+                        <img src="~/assets/img/product-image-12-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span>1</span>
+                            <span class="cross-out">$6.77</span>
+                            <span class="sale">$4.85</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="viewed-products">
+        <div class="container">
+            <div class="row pb-5">
+                <h1 class="pt-5 pb-5">Recnetly Viewed Products</h1>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">16%</span>
+                        <img src="~/assets/img/product-image-27-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Encore Seafoods Stuffed Alaskan SalmonF</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>1</span>
+                            <span class="cross-out">$32.49</span>
+                            <span class="sale">$27.49</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary mt-4" data-id="7">
+                                    Add to
+                                    cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem; " data-id="6">
+                        <span class="onsale">29%</span>
+                        <span class="recommended">Recommended</span>
+                        <img src="~/assets/img/product-image-62-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span>1</span>
+                            <span class="cross-out">$6.77</span>
+                            <span class="sale">$4.85</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">16%</span>
+                        <img src="~/assets/img/product-image-30-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Encore Seafoods Stuffed Alaskan SalmonF</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>1</span>
+                            <span class="cross-out">$32.49</span>
+                            <span class="sale">$27.49</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary mt-4" data-id="7">
+                                    Add to
+                                    cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">29%</span>
+                        <span class="recommended">Recommended</span>
+                        <img src="~/assets/img/product-image-57-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span>1</span>
+                            <span class="cross-out">$6.77</span>
+                            <span class="sale">$4.85</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,501 @@
+﻿@{ 
+    ViewBag.Title = "Shop - Bacola";
+}
+<main>
+    <section id="site-links" class="page-links">
+        <div class="container">
+            <div class="links pt-3 pb-5">
+                <a class="link-home" href="~/home.html">Home</a>
+                <i class="fa-solid fa-chevron-right link-icon"></i>
+                <a href="#" class="link-shop">Shop</a>
+            </div>
+        </div>
+    </section>
+    <section id="products-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <h4>Product Categories</h4>
+                    <div class="chebox-box">
+                        <input type="checkbox">
+                        <label>Beverages</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Biscuits & Snacks</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Breads & Bakery</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Breakfast & Dairy</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Frozen Foods</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Fruits & Vegetables</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Grocery & Staples</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Household Needs</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Meats & Seafood</label>
+                    </div>
+                    <input type="range" class="form-range mt-5" id="customRange1">
+                    <h4>Product Status</h4>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>In Stock</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>On Sale</label>
+                    </div>
+                    <h4>Brands</h4>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Frito Lay</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Nespresso</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Oreo</label>
+                    </div>
+                    <div class="checkbox-box">
+                        <input type="checkbox">
+                        <label>Quaker</label>
+                    </div>
+                    <div class="checkbox-box mb-5">
+                        <input type="checkbox">
+                        <label>Welch's</label>
+                    </div>
+                    <img src="~/assets/img/sidebar-banner.gif" style="height: 400px;">
+                </div>
+                <div class="col-xl-9 col-md-12">
+                    <img src="~/assets/img/bacola-banner-18.jpg" alt="">
+                    <div class="sort-products mt-4 mb-5">
+                        <div class="row justify-content-between">
+                            <div class="col-1 d-flex align-items-center" style="height: 60px;">
+                                <i class="fa-solid fa-grip-lines fa-lg"></i>
+                                <i class="fa-solid fa-grip fa-lg"></i>
+                            </div>
+                            <div class="col-4 d-flex align-items-center" style="height: 60px;">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Sort by latest
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Sort by popularity</a></li>
+                                        <li><a class="dropdown-item" href="#">Sort by average rating</a></li>
+                                        <li><a class="dropdown-item" href="#">Sort by latest</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Show 12
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">12</a></li>
+                                        <li><a class="dropdown-item" href="#">24</a></li>
+                                        <li><a class="dropdown-item" href="#">36</a></li>
+                                        <li><a class="dropdown-item" href="#">48</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-62-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-60-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-46-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-45-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-59-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-58-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-57-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-50-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-56-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-61-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-55-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-12">
+                            <div class="card" style="width: 15rem;" data-id="6">
+                                <span class="onsale">29%</span>
+                                <span class="recommended">Recommended</span>
+                                <img src="~/assets/img/product-image-54-346x310.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span>1</span>
+                                    <span class="cross-out">$6.77</span>
+                                    <span class="sale">$4.85</span>
+                                    <div class="hidden-box mt-3">
+                                        <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prev-and-next mt-5 mb-5">
+                        <span class="page-number">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="viewed-products" style="background-color: white;">
+        <div class="container">
+            <div class="row pb-5">
+                <h1 class="pt-5 pb-5">Recnetly Viewed Products</h1>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">16%</span>
+                        <img src="~/assets/img/product-image-27-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Encore Seafoods Stuffed Alaskan SalmonF</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>1</span>
+                            <span class="cross-out">$32.49</span>
+                            <span class="sale">$27.49</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary mt-4" data-id="7">
+                                    Add to
+                                    cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem; " data-id="6">
+                        <span class="onsale">29%</span>
+                        <span class="recommended">Recommended</span>
+                        <img src="~/assets/img/product-image-62-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span>1</span>
+                            <span class="cross-out">$6.77</span>
+                            <span class="sale">$4.85</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">16%</span>
+                        <img src="~/assets/img/product-image-30-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Encore Seafoods Stuffed Alaskan SalmonF</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span>1</span>
+                            <span class="cross-out">$32.49</span>
+                            <span class="sale">$27.49</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary mt-4" data-id="7">
+                                    Add to
+                                    cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12">
+                    <div class="card" style="width: 18rem;" data-id="6">
+                        <span class="onsale">29%</span>
+                        <span class="recommended">Recommended</span>
+                        <img src="~/assets/img/product-image-57-346x310.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                            <p class="card-text">IN STOCK</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span>1</span>
+                            <span class="cross-out">$6.77</span>
+                            <span class="sale">$4.85</span>
+                            <div class="hidden-box mt-3">
+                                <button class="btn add-to-card btn-primary" data-id="7">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

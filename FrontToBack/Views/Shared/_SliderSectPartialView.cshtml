@@ -1,0 +1,17 @@
+﻿@model List<Slider>
+@foreach (var item in Model)
+{
+    <div class="item">
+        <img src="~/assets/img/@item.Image">
+        <div class="text-box">
+            <p>@item.SaleTitle <span class="discount-text">@item.Sale</span></p>
+            @Html.Raw(item.MainTitle)
+            <p>@item.Description</p>
+            <span>@item.PriceTitle</span>
+            <span class="price text-danger">@item.Price</span>
+            <button type="button" class="btn btn-primary">
+                @item.BtnTitle <i class="fa-solid fa-right-long"></i>
+            </button>
+        </div>
+    </div>
+}
